@@ -7,7 +7,6 @@
 
 #define MAX 5
 
-// int MAX = 4;
 
 int matA[MAX][MAX]; 
 int matB[MAX][MAX]; 
@@ -112,7 +111,7 @@ int main() {
         
 			int *index = (int*)malloc(sizeof(int));
 				
-        
+ 
         *index = y;
         
 				*function_idx = x;
